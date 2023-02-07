@@ -1,4 +1,4 @@
-.specialization__description {
+.specialization-description {
     position: absolute;
     bottom: 0;
     margin: 0;
@@ -13,11 +13,11 @@
     background-color: rgba(47, 48, 58, 0.8);
   }
   
-  .specialization__image {
+  .specialization-image {
     display: block;
-  };
+  }
   
-  .specialization__list {
+  .specialization-list {
     position: relative;
     display: flex;
     gap: 30px;
