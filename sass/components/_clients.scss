@@ -6,7 +6,7 @@
     list-style: none;
     justify-content: space-around;
   }
-  &__icon {
+  &__box {
     display: flex;
     width: 170px;
     fill: var(--icon-color);
@@ -25,17 +25,16 @@
       fill: var(--selection-color);
     }
   }
+  &__link {
+    display: flex;
+    fill: var(--icon-color);
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+  }
+    &__svg {
+    display: flex;
+  }
 }
 
-.client-icon__link {
-  display: flex;
-  fill: var(--icon-color);
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-}
-
-.client-icon__svg {
-  display: flex;
-}
