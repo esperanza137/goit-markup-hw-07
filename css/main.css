@@ -82,8 +82,7 @@ ul {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -92,7 +91,7 @@ ul {
           justify-content: space-between;
 }
 
-.banner__background {
+.banner-background {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.6))), url("./../images/img_tytul.jpg");
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.6)), url("./../images/img_tytul.jpg");
   background-size: cover;
@@ -109,7 +108,7 @@ ul {
   margin-inline: auto;
 }
 
-.banner__title {
+.banner-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,7 +124,7 @@ ul {
   margin-bottom: 30px;
 }
 
-.banner__btn {
+.banner-btn {
   font-family: inherit;
   background: var(--selection-color);
   font-size: 16px;
@@ -255,8 +254,7 @@ ul {
   margin-right: 93px;
 }
 .logo__link:hover, .logo__link:focus, .logo__link:visited {
-  -webkit-text-decoration-color: var(--selection-color);
-          text-decoration-color: var(--selection-color);
+  text-decoration-color: var(--selection-color);
 }
 
 .logo__sign {
@@ -547,7 +545,6 @@ ul {
   margin-bottom: 94px;
   list-style: none;
 }
-
 .skills-section__list {
   -ms-flex-preferred-size: calc((100% - 30px) / 4);
       flex-basis: calc((100% - 30px) / 4);
@@ -555,12 +552,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
-.skills-section__list > h3 {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
 .skills-section__icons {
   all: unset;
   display: -webkit-box;
@@ -573,7 +564,6 @@ ul {
   padding: 25px 100px;
   margin-bottom: 30px;
 }
-
 .skills-section__text {
   text-transform: none;
   width: 270px;
@@ -581,6 +571,11 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
+}
+
+.skills-section__list > h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .specialization__description {
@@ -726,7 +721,6 @@ a.social-list__link:focus svg {
   background-color: var(--white-color);
   padding-bottom: 94px;
 }
-
 .clients-section__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -735,7 +729,6 @@ a.social-list__link:focus svg {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .clients-section__icon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -821,8 +814,7 @@ ul.footer-mail__tel {
 
 address {
   font-style: normal;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
