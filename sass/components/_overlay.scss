@@ -14,17 +14,7 @@
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  // &:hover,
-  // &:focus {
-  //   transform: translateY(0);
-  // }
 }
-
-  .overlay:hover,
-  .overlay:focus {
-    transform: translateY(0);
-  }
 
 .overlay > p {
   font-family: "Roboto", sans-serif;
@@ -34,3 +24,8 @@
   line-height: 1.55;
   padding: 49px 45px 49px 24px;
 }
+
+// .portfolio-card:hover .overlay,
+// .portfolio-card:focus .overlay {
+//   transform: translateY(0);
+// }

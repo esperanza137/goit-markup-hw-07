@@ -540,6 +540,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.skills-section__list > h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 .skills-section__icons {
   all: unset;
   display: -webkit-box;
@@ -559,11 +563,6 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
-}
-
-.skills-section__list > h3 {
-  font-size: 14px;
-  margin-bottom: 10px;
 }
 
 .specialization-description {
@@ -608,6 +607,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.team-section__title > h3 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 .team-section__card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -640,14 +643,8 @@ ul {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .team-section h2 {
   padding-top: 94px;
-}
-
-.team-section__title > h3 {
-  font-size: 14px;
-  margin-bottom: 10px;
 }
 
 .social-list {
@@ -999,6 +996,10 @@ img {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.portfolio-card:hover .overlay, .portfolio-card:focus .overlay {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 .portfolio-card__item {
   border: 1px solid #eeeeee;
   padding: 20px 24px;
@@ -1036,12 +1037,6 @@ img {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.overlay:hover,
-.overlay:focus {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .overlay > p {
