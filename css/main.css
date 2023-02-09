@@ -162,6 +162,9 @@ ul {
   padding-left: 93px;
   gap: 2rem;
 }
+.nav__section > ul {
+  margin-left: 93px;
+}
 .nav__point {
   letter-spacing: 0.02em;
   color: var(--font-color);
@@ -190,10 +193,6 @@ ul {
   display: flex;
   font-size: 14px;
   gap: 2rem;
-}
-
-.nav__section > ul {
-  margin-left: 93px;
 }
 
 .agencja,
@@ -1038,6 +1037,10 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.overlay:hover, .overlay:focus {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 
 .overlay > p {
   font-family: "Roboto", sans-serif;
@@ -1046,8 +1049,4 @@ img {
   font-size: 18px;
   line-height: 1.55;
   padding: 49px 45px 49px 24px;
-}
-.overlay > p:hover .overlay, .overlay > p:focus .overlay {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */

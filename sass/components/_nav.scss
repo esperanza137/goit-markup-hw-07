@@ -13,6 +13,9 @@
     padding-block: 32px;
     padding-left: 93px;
     gap: 2rem;
+    & > ul {
+      margin-left: 93px;
+    }
   }
 
   &__point {
@@ -37,10 +40,6 @@
     font-size: 14px;
     gap: 2rem;
   }
-}
-
-.nav__section > ul {
-  margin-left: 93px;
 }
 
 .agencja,
