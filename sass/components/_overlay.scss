@@ -14,11 +14,17 @@
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
+
+  // &:hover,
+  // &:focus {
+  //   transform: translateY(0);
+  // }
+}
+
+  .overlay:hover,
+  .overlay:focus {
     transform: translateY(0);
   }
-}
 
 .overlay > p {
   font-family: "Roboto", sans-serif;
