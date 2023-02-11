@@ -14,16 +14,16 @@
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  & > p {
+    font-family: "Roboto", sans-serif;
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55;
+    padding: 49px 45px 49px 24px;
+  }
 }
 
-.overlay > p {
-  font-family: "Roboto", sans-serif;
-  color: var(--white-color);
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55;
-  padding: 49px 45px 49px 24px;
-}
 
 // .portfolio-card:hover .overlay,
 // .portfolio-card:focus .overlay {
